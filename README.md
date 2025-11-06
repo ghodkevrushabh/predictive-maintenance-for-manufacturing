@@ -54,8 +54,8 @@ The plot below shows the `True RUL` from the test set vs. the `Predicted RUL` fr
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/YOUR_USERNAME/YOUR_REPOSITORY_NAME.git](https://github.com/YOUR_USERNAME/YOUR_REPOSITORY_NAME.git)
-    cd YOUR_REPOSITORY_NAME
+    git clone https://github.com/ghodkevrushabh/predictive-maintenance-for-manufacturing.git
+    cd predictive-maintenance-for-manufacturing
     ```
 2.  **Install dependencies:**
     It's recommended to use a virtual environment.
