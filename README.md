@@ -38,17 +38,17 @@ The project was built in a Python notebook and follows these key steps:
 
 ## 📈 Results
 
-The trained model was evaluated on the unseen test set.
+The trained model was evaluated on the unseen test set. These are the reproducible results achieved after setting a random seed.
 
-* **Mean Absolute Error (MAE): 14.86**
-    * On average, the model's prediction for RUL is off by ~15 cycles.
-* **Root Mean Squared Error (RMSE): 21.05**
-    * A higher score that penalizes large errors, indicating the model occasionally makes predictions that are further off.
+* **Mean Absolute Error (MAE): 36.00**
+    * On average, the model's prediction for RUL is off by **~36 cycles**.
+* **Root Mean Squared Error (RMSE): 44.10**
+    * This score penalizes large errors more heavily. The fact that it's higher than the MAE (44 vs. 36) confirms that the model, while generally correct, occasionally makes predictions that are significantly wrong.
 
 The plot below shows the `True RUL` from the test set vs. the `Predicted RUL` from the model. The strong positive correlation along the red "perfect prediction" line shows the model learned the degradation patterns successfully.
 
 ![RUL Prediction vs. True RUL](RUL_prediction_vs_true.png)
-*(Note: You must have the `RUL_prediction_vs_true.png` file in your repository for this image to show up).*
+
 
 ## 🚀 How to Run
 
