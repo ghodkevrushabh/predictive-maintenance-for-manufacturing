@@ -65,4 +65,4 @@ The plot below shows the `True RUL` from the test set vs. the `Predicted RUL` fr
 3.  **Run the notebook:**
     Open and run the `.ipynb` notebook (e.g., in Google Colab or Jupyter Lab) to see the full process from data loading to evaluation.
 
-
+### `requirements.txt`
